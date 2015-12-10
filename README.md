@@ -1,5 +1,5 @@
 # nlib.Paypal
-nlib.Paypal aims to provide a simple but yet clever way to handle paypal IPN messages.
+`nlib.Paypal` aims to provide a simple but yet clever way to handle paypal IPN messages.
 see PaypalHandler.cs for the basic abstract structure of this lib.
 The PaypalHandler provides 3 basic abstract methoods: `Verified`, `Failed` and `Unhandled`; And 1 abstract property `ToBePayedEmail`.
 
